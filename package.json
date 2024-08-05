@@ -1,0 +1,24 @@
+{
+  "name": "traffic-classification",
+  "version": "1.0.0",
+  "main": "dataset-generator.js",
+  "type": "module",
+  "scripts": {
+    "classification": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@adobe/spacecat-shared-gpt-client": "^1.2.11",
+    "@adobe/spacecat-shared-rum-api-client": "^2.6.0",
+    "@adobe/spacecat-shared-utils": "^1.19.1",
+    "csv-parser": "^3.0.0",
+    "csv-to-markdown-table": "^1.4.1",
+    "dotenv": "^16.4.5",
+    "json-2-csv": "^5.5.4",
+    "minimist": "^1.2.8",
+    "validator": "^13.12.0"
+  }
+}
